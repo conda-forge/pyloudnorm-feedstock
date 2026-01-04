@@ -1,5 +1,5 @@
 {% set name = "pyloudnorm" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pyloudnorm-{{ version }}.tar.gz
-  sha256: 63cd4e197dea4e7795160ea08ed02d318091bce883e436a6dbc5963326b71e1e
+  sha256: 8bf597658ea4e1975c275adf490f6deb5369ea409f2901f939915efa4b681b16
 
 build:
   noarch: python
